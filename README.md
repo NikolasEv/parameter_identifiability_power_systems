@@ -95,14 +95,10 @@ jupyter nbconvert --to notebook --execute --output-dir /tmp 2_Geometric_Harmonic
 | Fig. 14 | `Power_Systems_GH_Parity_Plots_Phis`    | notebook 2 |
 | Table VI (arXiv v1) | printed output ("Mean Absolute Error Per Parameter") | notebook 2 |
 
-## Note on reproducibility
+## Contact
 
-`perturb_param.m` draws the parameter perturbations with MATLAB's `rand` and no fixed seed, so every
-run of step 1 produces a different (statistically equivalent) dataset. Results will then be close to,
-but not identical to, those in the paper. With the original dataset, the Python notebooks reproduce the
-paper figures exactly. Depending on the BLAS library of your installation, printed values may
-differ only at the level of floating-point round-off (~1e-12). If you need that dataset, please contact Nikolas Evangelou through
-[https://nikolas-ev.com/](https://nikolas-ev.com/).
+If you notice any issue with reproducing the data or the results, feel free to contact Nikolas Evangelou
+through [https://nikolas-ev.com/](https://nikolas-ev.com/).
 
 ## Citation
 
